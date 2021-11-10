@@ -1,7 +1,7 @@
 ## Human hunters test assigment
 
 ### Used technologies:
-- PHP
+- PHP ^8
 - Laravel
 - MySQL
 
@@ -9,7 +9,7 @@
 
 Clone project
 ```shell
-git clone
+git clone https://github.com/kriptogenic/person-hunters-test.git
 ```
 
 Install dependencies
@@ -27,6 +27,11 @@ Than put mysql credentials to .env config file
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=root_password
+```
+
+Generate application key
+```shell
+php artisan key:generate
 ```
 
 Run migration and seed command
